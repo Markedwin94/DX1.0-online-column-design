@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'inter', sans-serif;
+    font-family: 'manrope', sans-serif;
+}
+
+
+.parent-container{
+    border: 3px solid black;
+    height: 400px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-div{
+    border: 1px solid #d9d9d9;
+    height: 100%;
+    width: 50%;
+    background: #d9d9d9;
+    /* padding for top, right, bottom and left. */
+    padding: 20px;
+}
+
+.second-div{
+    border: 1px solid tomato;
+    height: 100%;
+    width: 50%;
+    background: url(image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: relative;
+    display: flex;
+}
+
+.headerwriteup{
+    color: tomato;
+}
+
+.smartline{
+    height: 16px;
+    width: 224px;
+    background: tomato;
+}
+
+.project-logoname{
+    margin-bottom: 30px;
+}
+
+.main-headertext{
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+.header-linkholder{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    z-index: 3;
+    width: 100%;
+}
+
+.background-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 99, 71, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
