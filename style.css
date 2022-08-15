@@ -45,7 +45,7 @@ body{
     border: 1px solid tomato;
     height: 100%;
     width: 50%;
-    background: url(image1.jpg);
+    background: url(iimages/image1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
